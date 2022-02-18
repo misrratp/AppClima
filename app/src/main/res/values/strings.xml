@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">AppClima</string>
+    <string name="app_name">Clima</string>
     <string name="texto_grados">23°</string>
     <string name="texto_ciudad">Felipe carrillo puerto</string>
     <string name="texto_estatus">Nublado°</string>
+
+
+    <string name="texto_bienvenida">Bienvenido ami APP del clima, Seleccionar opcion de a bajo</string>
+
+    <string name="texto_boton_mexico">Felipe Carrillo Puerto</string>
+
+    <string name="texto_boton_Chetumal">Chetumal</string>
+
+
 </resources>

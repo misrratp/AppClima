@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nuevo_proyecto_2022_02_14t103139_384"
+    android:orientation="vertical"
+    tools:context=".Ciudades">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_bienvenida"
+        android:textAlignment="center"
+        android:textColor="#1C0505"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/CarrilloBoton"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="add"
+        android:fallbackLineSpacing="false"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/texto_boton_mexico"
+        android:textColor="#FFFF00" />
+
+    <Button
+        android:id="@+id/ChetumalBoton"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTintMode="add"
+        android:fallbackLineSpacing="false"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/texto_boton_Chetumal"
+        android:textColor="#FFFF00" />
+</LinearLayout>
